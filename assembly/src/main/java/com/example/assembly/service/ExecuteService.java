@@ -91,7 +91,7 @@ public class ExecuteService {
                 ans = ans.concat(program.getProgramText() +" "+ program.getResult());
                 programRepository.save(program);
             } catch (Exception e) {
-                throw new RuntimeException(reg+" not exits");
+                ans = ans.concat(reg+" not exits");
             }
         }else {
             Program program = new Program();
