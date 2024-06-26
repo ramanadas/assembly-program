@@ -20,6 +20,9 @@ Open a terminal and run the following command to clone the repository:
 ```bash
 git clone https://github.com/ramanadas/assembly-program.git
 cd assembly-program
+docker-compose up --build
+
+
 ```
 
 ### 2. Build and Run the Application
@@ -89,3 +92,4 @@ If you encounter any issues while setting up or running the application, conside
    - **Network Issues:** Verify that Docker can access the internet to pull necessary images.
 
 For further assistance, please open an issue in the [GitHub repository](https://github.com/ramanadas/assembly-program/issues).
+![img.png](img.png)
